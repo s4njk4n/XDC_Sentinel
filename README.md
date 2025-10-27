@@ -33,8 +33,8 @@ You will provide your node's IP address (and P2P port if you have changed it) du
 - **Payment Method**: Payments are accepted in XDC cryptocurrency only. Detailed instructions will be provided upon contact.
 
 ## Eligibility and Compliance
-To ensure compliance with local Australian tax regulations:
-- By proceeding with purchase, you declare that you (or your organization) are **not** a citizen or resident of Australia.
+To ensure compliance with local Australian regulations:
+- By proceeding with purchase, you declare that you (and/or your organization) are **not** a citizen of, resident of, or domiciled in Australia.
 - You also declare that XDC Sentinel will **not** be used to monitor servers or nodes located in Australia.
 
 If these conditions apply to you, please do not proceed. Purchases from ineligible parties will be refunded (minus any transaction fees), and access will be denied.
