@@ -1,5 +1,7 @@
 # XDC Sentinel: Node Monitoring Notification Service
 
+![XDC Sentinel Logo](XDC_Sentinel.jpg)
+
 ## Overview
 XDC Sentinel is a monitoring tool designed to check the status of XDC network nodes by verifying if their P2P port (e.g., 30303) is open and responsive. It runs periodic checks and sends notifications to your iPhone/Android via [ntfy.sh](https://ntfy.sh) for events such as:
 - Node going offline or coming back online.
