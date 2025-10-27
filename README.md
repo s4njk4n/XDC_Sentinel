@@ -8,7 +8,7 @@ XDC Sentinel is a monitoring tool designed to check the status of XDC network no
 - Repeated offline reminders (every 2 hours if offline persists).
 - Daily "remains online" confirmation (sent on the first check after 08:00 AEST/AEDT).
 
-The script itself is a Bash-based tool that uses `netcat` for port checks and `curl` for notifications. It is hosted and executed on a GitHub Actions workflow for reliability, with state persistence to track node history.
+The script itself is a Linux-based tool that uses standard linux utilities for port checks and for notifications. It is hosted and executed on a GitHub Actions workflow for reliability, with state persistence to track node history.
 
 **Important Note**: XDC Sentinel is not affiliated with the XDC Network or any official entities. It is an independent monitoring service provided for informational purposes only.
 
