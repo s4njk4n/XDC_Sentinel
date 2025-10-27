@@ -25,7 +25,7 @@ You will provide your node's IP address (and P2P port if you have changed it) du
 
 ## Pricing and Subscription Terms
 - **30-Day Trial**: Your first 30 days of using XDC Sentinel are considered a trial period. Full payment is required upfront before starting. If you decide not to continue within these 30 days, your payment will be fully refunded.
-- **Price**: A flat fee of 1200 XDC covers service until the upcoming October 1st (no prorated discounts based on purchase date).
+- **Price**: A flat fee of 1200 XDC (per node) covers service until the upcoming October 1st (no prorated discounts based on purchase date).
 - **Billing Period**: Payment is due in full upfront and provides access from your purchase date through September 30th of the same year if purchased before October 1st, or through September 30th of the next year if purchased on or after October 1st. For example:
   - If you purchase on March 1, 2025, you pay 1200 XDC for service until September 30, 2025.
   - If you purchase on November 1, 2025, you pay 1200 XDC for service until September 30, 2026.
