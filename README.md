@@ -88,4 +88,6 @@ XDC Sentinel is provided on an "as-is" basis with no warranties or guarantees. B
 - **No Liability**: The provider (s4njk4n) assumes no liability for any losses, damages, or missed opportunities resulting from use (or non-use) of this service, including but not limited to node downtime, financial impacts on your XDC operations, or delayed notifications. You use this service at your own risk.
 - **Agreement**: By contacting to purchase and proceeding with payment, you confirm that you understand and accept these terms, including the potential for imperfect performance.
 
+[![Purchase Now Today](https://img.shields.io/badge/Purchase%20Now%20Today-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
+
 Thank you for your interest in XDC Sentinel!
