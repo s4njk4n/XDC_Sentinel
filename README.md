@@ -8,29 +8,28 @@ XDC Sentinel is a monitoring tool designed to check the status of XDC network no
 - Repeated offline reminders (every 2 hours if offline persists).
 - Daily "remains online" confirmation (sent on the first check after 08:00 AEST/AEDT).
 
-The script itself is a Linux-based tool that uses standard linux utilities for port checks and for notifications. It is hosted and executed on a GitHub Actions workflow for reliability, with state persistence to track node history.
+The software itself is a Linux-based tool that uses standard linux utilities for port checks and for notifications. It is hosted and executed on a GitHub Actions workflow for reliability, with state persistence to track node history.
 
 **Important Note**: XDC Sentinel is not affiliated with the XDC Network or any official entities. It is an independent monitoring service provided for informational purposes only.
 
 For more about my projects, visit my website: [XDC Outpost](https://s4njk4n.github.io/XDCOutpost/).
 
 ## What You Are Purchasing
-By purchasing access to XDC Sentinel notifications, you are **not** purchasing the XDC Sentinel script, software, or any ownership rights. Instead, you are paying for:
+By purchasing access to XDC Sentinel notifications, you are **not** purchasing the XDC Sentinel software, or any ownership rights. Instead, you are paying for:
 - Subscription to personalized notifications for your specified XDC node(s), delivered via a dedicated ntfy.sh topic.
 - The service of configuring and maintaining the monitoring for your node(s) in the backend workflow.
 
-This is similar to historical Linux distributions where users paid for packaging, support, and distribution materials rather than the open-source Linux kernel itself. The underlying script logic is derived from open-source principles, but the hosted monitoring and notification delivery is the paid service.
+This is similar to historical Linux distributions where users paid for packaging, support, and distribution materials rather than the open-source Linux kernel itself. The underlying software logic is derived from open-source principles, but the hosted monitoring and notification delivery is the paid service.
 
-You will provide your node's IP address (and P2P port if you have changed it) during setup. Notifications will be sent based on the script's checks, but as detailed below, there are no guarantees of perfect functionality.
+You will provide your node's IP address (and P2P port if you have changed it) during setup. Notifications will be sent based on the software's checks, but as detailed below, there are no guarantees of perfect functionality.
 
 ## Pricing and Subscription Terms
-- **30-Day Trial**: Your first 30 days of using XDC Sentinel are considered a trial period. Full payment is required upfront before starting. If you decide not to continue within these 30 days, your payment will be fully refunded.
-- **Price**: A flat fee of 1200 XDC (per node) covers service until the upcoming October 1st (no prorated discounts based on purchase date).
-- **Billing Period**: Payment is due in full upfront and provides access from your purchase date through September 30th of the same year if purchased before October 1st, or through September 30th of the next year if purchased on or after October 1st. For example:
-  - If you purchase on March 1, 2025, you pay 1200 XDC for service until September 30, 2025.
-  - If you purchase on November 1, 2025, you pay 1200 XDC for service until September 30, 2026.
-- **Renewal**: Subscriptions expire annually on October 1st. To renew, you must make a new purchase of 1200 XDC for the next period. There are no automatic renewals or refunds outside the trial period.
+- **Risk-free Trial**: Your first 30 days of using XDC Sentinel are considered a trial period. Full payment is required upfront before starting. If you decide not to continue within these 30 days, your payment will be fully refunded.
+- **Price**: A flat fee of 1200 XDC (per node) covers service for the current year only (no prorated discounts based on purchase date).
+- **Billing Period**: Payment is due in full upfront and provides access from your purchase date through December 31st of the same year.
+- **Renewal**: Subscriptions expire annually on December 31st. To renew, you must make a new purchase of 1200 XDC for the next year. There are no automatic renewals or refunds outside the trial period.
 - **Payment Method**: Payments are accepted in XDC cryptocurrency only. Detailed instructions will be provided upon contact.
+- **Modificiations**: User-requested modifications to service settings (eg. changing the ntfy.sh notification channel, or changing the node IP address following node migration etc) require manual settings update and will incur a prepaid fee of 600 XDC before being actioned.
 
 ## Eligibility and Compliance
 To ensure compliance with local Australian regulations:
@@ -68,7 +67,7 @@ Your privacy is important to us. This Privacy Policy explains how we collect, us
 
 #### Sharing and Disclosure
 - We do not share, sell, or disclose your information to any third parties, except as required by law.
-- **ntfy.sh Notifications**: Notifications are sent to your specified ntfy.sh channel, which is public if accessed directly (e.g., via https://ntfy.sh/your-channel). Anyone who knows or guesses your channel code can view messages. We recommend keeping your channel code private and not sharing it. Notification content is minimal and anonymized (e.g., "XDC Node (Server Name/type) with IP ending in 111.222 is OFFLINE!"), avoiding full IPs or sensitive details.
+- **ntfy.sh Notifications**: Notifications are sent to your specified ntfy.sh channel, which is public if accessed directly (e.g., via https://ntfy.sh/your-channel). Anyone who knows or guesses your channel code can view notifications. In addition to using a ramdom complex channel code, we recommend keeping your channel code private and not sharing it. Notification content is minimal and anonymized (e.g., "XDC Node (Server Name/type) with IP ending in 111.222 is OFFLINE!"), avoiding full IPs or sensitive details. We specifically use ntfy.sh as it provides purchasers the ability to very simply notify as many parties as required all at once if an issue is detected.
 
 #### Your Rights
 - You can request access to, correction of, or deletion of your data by contacting us via Telegram (@s4njk4n).
