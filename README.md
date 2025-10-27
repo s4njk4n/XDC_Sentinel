@@ -23,7 +23,7 @@ By purchasing access to XDC Sentinel notifications, you are **not** purchasing t
 - Subscription to personalized notifications for your specified XDC node(s), delivered via a dedicated ntfy.sh topic/channel.
 - The service of configuring and maintaining the monitoring for your node(s) in the backend workflow.
 
-This is similar to historical Linux distributions where users paid for packaging, support, and distribution materials rather than the open-source Linux kernel itself. The underlying software logic is derived from open-source principles, but the hosted monitoring and notification delivery is the paid service.
+This is similar to historical Linux distributions where users paid for packaging, support, and distribution materials rather than the open-source Linux kernel itself. The hosted monitoring and notification delivery is the paid service.
 
 You will provide your node's IP address (and P2P port if you have changed it) during setup. Notifications will be sent based on the software's checks, but as detailed below, there are no guarantees of perfect functionality.
 
