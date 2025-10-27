@@ -70,7 +70,7 @@ Your privacy is important to us. This Privacy Policy explains how we collect, us
 
 #### Sharing and Disclosure
 - We do not share, sell, or disclose your information to any third parties, except as required by law.
-- **ntfy.sh Notifications**: Notifications are sent to your specified ntfy.sh channel, which is public if accessed directly (e.g., via https://ntfy.sh/your-channel). Anyone who knows or guesses your channel code can view notifications. In addition to using a ramdom complex channel code, we recommend keeping your channel code private and not sharing it. Notification content is minimal and anonymized (e.g., "XDC Node (Server Name/type) with IP ending in 111.222 is OFFLINE!"), avoiding full IPs or sensitive details. We specifically use ntfy.sh as it provides purchasers the ability to very simply notify as many parties as required all at once if an issue is detected.
+- **ntfy.sh Notifications**: Notifications are sent to your specified ntfy.sh channel, which is public if accessed directly (e.g., via https://ntfy.sh/your-channel). Anyone who knows or guesses your channel code can view notifications. In addition to using a ramdom complex channel code, we recommend keeping your channel code private and not sharing it. Notification content is minimal and anonymized (e.g., "XDC Node (Server Name/type) with IP ending in 111.222 is OFFLINE!"), avoiding full IPs or sensitive details.
 
 #### Your Rights
 - You can request access to, correction of, or deletion of your data by contacting us via Telegram (@s4njk4n).
