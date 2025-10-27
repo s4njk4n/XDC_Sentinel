@@ -18,7 +18,7 @@ For more about my projects, visit my website: [XDC Outpost](https://s4njk4n.gith
 
 ## What You Are Purchasing
 By purchasing access to XDC Sentinel notifications, you are **not** purchasing the XDC Sentinel software, or any ownership rights. Instead, you are paying for:
-- Subscription to personalized notifications for your specified XDC node(s), delivered via a dedicated ntfy.sh topic.
+- Subscription to personalized notifications for your specified XDC node(s), delivered via a dedicated ntfy.sh topic/channel.
 - The service of configuring and maintaining the monitoring for your node(s) in the backend workflow.
 
 This is similar to historical Linux distributions where users paid for packaging, support, and distribution materials rather than the open-source Linux kernel itself. The underlying software logic is derived from open-source principles, but the hosted monitoring and notification delivery is the paid service.
