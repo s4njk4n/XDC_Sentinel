@@ -8,7 +8,7 @@ XDC Sentinel is a monitoring tool designed to check the status of XDC network no
 - Repeated offline reminders (every 2 hours if offline persists).
 - Daily "remains online" confirmation (sent on the first check after 08:00 AEST/AEDT).
 
-Notifications can be simultaneously sent to as many user devices as the purchaser requires.
+Notifications can be simultaneously sent to as many user devices as the purchaser requires. 15 people responsible for your node's upkeep? No problems! Send notifications to all of them so the first available can fix the issue!
 
 The software itself is a Linux-based tool that uses standard linux utilities for port checks and for notifications. It is hosted and executed on a GitHub Actions workflow for reliability, with state persistence to track node history. 
 
