@@ -90,4 +90,4 @@ XDC Sentinel is provided on an "as-is" basis with no warranties or guarantees. B
 
 [![Purchase Now Today](https://img.shields.io/badge/Purchase%20Now%20Today-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
 
-Thank you for your interest in XDC Sentinel!
+**Thank you for your interest in XDC Sentinel!**
