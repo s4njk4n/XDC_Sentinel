@@ -16,6 +16,8 @@ The software itself is a Linux-based tool that uses standard linux utilities for
 
 For more about my projects, visit my website: [XDC Outpost](https://s4njk4n.github.io/XDCOutpost/).
 
+[![Purchase Now Today](https://img.shields.io/badge/Purchase%20Now%20Today-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
+
 ## What You Are Purchasing
 By purchasing access to XDC Sentinel notifications, you are **not** purchasing the XDC Sentinel software, or any ownership rights. Instead, you are paying for:
 - Subscription to personalized notifications for your specified XDC node(s), delivered via a dedicated ntfy.sh topic/channel.
