@@ -16,7 +16,7 @@ The software itself is a Linux-based tool that uses standard linux utilities for
 
 For more about my projects, visit my website: [XDC Outpost](https://s4njk4n.github.io/XDCOutpost/).
 
-[![Purchase Now](https://img.shields.io/badge/Purchase%20Now%20Today-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
+[![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
 
 ## What You Are Purchasing
 By purchasing access to XDC Sentinel notifications, you are **not** purchasing the XDC Sentinel software, or any ownership rights. Instead, you are paying for:
@@ -49,7 +49,7 @@ If you agree to the terms above as well as the Privacy Policy and Disclaimers be
 - Provide your node details (IP, port).
 - I'll confirm setup and provide payment instructions.
 
-[![Purchase Now](https://img.shields.io/badge/Purchase%20Now%20Today-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
+[![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
 
 ---
 
@@ -92,6 +92,6 @@ XDC Sentinel is provided on an "as-is" basis with no warranties or guarantees. B
 - **No Liability**: The provider (s4njk4n) assumes no liability for any losses, damages, or missed opportunities resulting from use (or non-use) of this service, including but not limited to node downtime, financial impacts on your XDC operations, or delayed notifications. You use this service at your own risk.
 - **Agreement**: By contacting to purchase and proceeding with payment, you confirm that you understand and accept these terms, including the potential for imperfect performance.
 
-[![Purchase Now](https://img.shields.io/badge/Purchase%20Now%20Today-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
+[![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
 
 **Thank you for your interest in XDC Sentinel!**
