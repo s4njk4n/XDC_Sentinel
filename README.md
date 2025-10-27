@@ -26,10 +26,11 @@ This is similar to historical Linux distributions where users paid for packaging
 You will provide your node's IP address (and P2P port if you have changed it) during setup. Notifications will be sent based on the software's checks, but as detailed below, there are no guarantees of perfect functionality.
 
 ## Pricing and Subscription Terms
+- _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
 - **Risk-free Trial**: Your first 30 days of using XDC Sentinel are considered a trial period. Full payment is required upfront before starting. If you decide not to continue within these 30 days, your payment will be fully refunded.
-- **Price**: A flat fee of 1200 XDC (per node) covers service for the current year January 1st to December 31st only (no prorated discounts based on purchase date).
-- **Billing Period**: Payment is due in full upfront and provides access from your purchase date through December 31st of the same year only.
-- **Renewal**: Subscriptions expire annually on December 31st. To renew, you must make a new purchase of 1200 XDC for the next year. There are no automatic renewals or refunds outside the trial period.
+- **Price**: A flat fee of 1200 XDC (per node) covers service for the current year January 1st to December 31st only (no prorated discounts based on purchase date). _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
+- **Billing Period**: Payment is due in full upfront and provides access from your purchase date through December 31st of the same year only. _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
+- **Renewal**: Subscriptions expire annually on December 31st. To renew, you must make a new purchase of 1200 XDC for the next year. There are no automatic renewals or refunds outside the trial period. _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
 - **Payment Method**: Payments are accepted in XDC cryptocurrency only. Detailed instructions will be provided upon contact.
 - **Modificiations**: User-requested modifications to service settings (eg. changing the ntfy.sh notification channel, or changing the node IP address following node migration etc) require manual settings update and will incur a prepaid fee of 600 XDC before being actioned.
 
