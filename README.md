@@ -18,10 +18,6 @@ For more about my projects, visit my website: [XDC Outpost](https://s4njk4n.gith
 
 [![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
 
-<a href="https://t.me/s4njk4n" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white" alt="Purchase Now">
-</a>
-
 ## What You Are Purchasing
 By purchasing access to XDC Sentinel notifications, you are **not** purchasing the XDC Sentinel software, or any ownership rights. Instead, you are paying for:
 - Subscription to personalized notifications for your specified XDC node(s), delivered via a dedicated ntfy.sh topic/channel.
