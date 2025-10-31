@@ -34,7 +34,7 @@ You will provide your node's IP address (and P2P port if you have changed it) du
 - **Billing Period**: Payment is due in full upfront and provides access from your purchase date through December 31st of the same year only. _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
 - **Renewal**: Subscriptions expire annually on December 31st. To renew, you must make a new purchase of 1200 XDC for the next year. There are no automatic renewals or refunds outside the trial period. _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
 - **Payment Method**: Payments are accepted in XDC cryptocurrency only. Detailed instructions will be provided upon contact.
-- **Modificiations**: User-requested modifications to service settings (eg. changing the ntfy.sh notification channel, or changing the node IP address following node migration etc) require manual settings update and will incur a prepaid fee of 600 XDC before being actioned.
+- **Modifications**: User-requested modifications to service settings (eg. changing the ntfy.sh notification channel, or changing the node IP address following node migration etc) require manual settings update and will incur a prepaid fee of 600 XDC before being actioned.
 
 ## Eligibility and Compliance
 To ensure compliance with local Australian regulations:
