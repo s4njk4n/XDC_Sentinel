@@ -10,8 +10,6 @@ XDC Sentinel is a monitoring tool designed to check the status of XDC network no
 
 Notifications can be simultaneously sent to as many user devices as the purchaser requires. 15 people responsible for your node's upkeep? No problems! Send notifications to all of them so the first available can fix the issue!
 
-The software itself is a Linux-based tool that uses standard linux utilities for port checks and for notifications. It is hosted and executed on a GitHub Actions workflow for reliability, with state persistence to track node history. 
-
 **Important Note**: XDC Sentinel is not affiliated with the XDC Network or any official entities. It is an independent monitoring service provided for informational purposes only.
 
 For more about my projects, visit my website: [XDC Outpost](https://s4njk4n.github.io/XDCOutpost/).
@@ -20,10 +18,8 @@ For more about my projects, visit my website: [XDC Outpost](https://s4njk4n.gith
 
 ## What You Are Purchasing
 By purchasing access to XDC Sentinel notifications, you are **not** purchasing the XDC Sentinel software, or any ownership rights. Instead, you are paying for:
-- Subscription to personalized notifications for your specified XDC node(s), delivered via a dedicated ntfy.sh topic/channel.
+- Subscription to personalized notifications for your specified XDC node(s), delivered via a notification application channel.
 - The service of configuring and maintaining the monitoring for your node(s) in the backend workflow.
-
-This is similar to historical Linux distributions where users paid for packaging, support, and distribution materials rather than the open-source Linux kernel itself. The hosted monitoring and notification delivery is the paid service.
 
 You will provide your node's IP address (and P2P port if you have changed it) during setup. Notifications will be sent based on the software's checks, but as detailed below, there are no guarantees of perfect functionality.
 
@@ -62,17 +58,17 @@ Your privacy is important to us. This Privacy Policy explains how we collect, us
 - **No Personal Data**: We do not collect names, email addresses, or other personally identifiable information unless voluntarily provided during contact.
 
 #### How We Use Your Information
-- Node details are used exclusively to monitor your XDC node and send notifications via ntfy.sh.
+- Node details are used exclusively to monitor your XDC node and send notifications via a 3rd-party notification application.
 - Purchase details are used to process your subscription, provide receipts, and comply with local tax regulations.
 
 #### Storage and Security
-- **Encryption**: Your node's IP address, port, and ntfy.sh channel are stored encrypted (AES-256) in GitHub Secrets vaults. Once encrypted, even we (the provider) cannot retrieve or view the original values—access is limited to the automated workflow for monitoring purposes.
+- **Encryption**: Your node's IP address, port, and notification channel code are stored encrypted (AES-256) online. Once encrypted, even we (the provider) cannot retrieve or view the original values—access is limited to the automated workflow for monitoring purposes.
 - **Offline Storage**: Purchase details and any related records are kept offline in secure, private storage and are not stored on cloud services or shared with third parties.
-- **Retention**: Purchase details are retained only for the period required by local Australian regulations (e.g., for tax and accounting purposes, typically 7 years). Node details are deleted upon subscription expiration or cancellation.
+- **Retention**: Purchase details are retained only for the period required by local Australian regulations (7 years for our local tax and accounting purposes). Node details are deleted upon subscription expiration or cancellation.
 
 #### Sharing and Disclosure
 - We do not share, sell, or disclose your information to any third parties, except as required by law.
-- **ntfy.sh Notifications**: Notifications are sent to your specified ntfy.sh channel, which is public if accessed directly (e.g., via https://ntfy.sh/your-channel). Anyone who knows or guesses your channel code can view notifications. In addition to using a ramdom complex channel code, we recommend keeping your channel code private and not sharing it. Notification content is minimal and anonymized (e.g., "XDC Node (Server Name/type) with IP ending in 111.222 is OFFLINE!"), avoiding full IPs or sensitive details.
+- **Notifications**: iOS/Android notifications are sent to your specified notification channel code. In addition to using a ramdom complex channel code, we recommend keeping your channel code private and not sharing it. Notification content is minimal and anonymized (e.g., "XDC Node (Server Name/type) with IP ending in 111.222 is OFFLINE!"), avoiding full IPs or sensitive details. Notifications are accessible by anyone who has the channel code so you will need to keep this private.
 
 #### Your Rights
 - You can request access to, correction of, or deletion of your data by contacting us via Telegram (@s4njk4n).
@@ -87,8 +83,8 @@ If you have questions about this Privacy Policy, contact us at [@s4njk4n](https:
 
 ### Liability and Disclaimers
 XDC Sentinel is provided on an "as-is" basis with no warranties or guarantees. By proceeding with purchase, you acknowledge and agree to the following:
-- **No Uptime Guarantee**: The monitoring runs on GitHub Actions, and is therefore subject to any performance limits of that service (including but not limited to delays, outages, or inconsistencies in scheduling (e.g., checks intended every hour may vary due to platform load)). Notifications are also similarly subject to the functionality and performance limits of ntfy.sh (including but not-limited to potential delays or non-transmission of notifications).
-- **Fallibility of Systems**: Hardware, software, networks, and third-party services (e.g., GitHub, ntfy.sh) are inherently fallible. It is possible for checks to fail, miss events, or produce inaccurate results due to technical issues, connectivity problems, or external factors. We do not guarantee 100% accuracy or reliability.
+- **No Uptime Guarantee**: The monitoring runs on online servers, and is therefore subject to any performance limits of that service (including but not limited to delays, outages, or inconsistencies in scheduling (e.g., checks intended every hour may vary due to platform load)). Notifications are also similarly subject to the functionality and performance limits of the notification service used (including but not-limited to potential delays or non-transmission of notifications).
+- **Fallibility of Systems**: Hardware, software, networks, and third-party services are inherently fallible. It is possible for checks to fail, miss events, or produce inaccurate results due to technical issues, connectivity problems, or external factors. We do not guarantee 100% accuracy or reliability.
 - **No Liability**: The provider (s4njk4n) assumes no liability for any losses, damages, or missed opportunities resulting from use (or non-use) of this service, including but not limited to node downtime, financial impacts on your XDC operations, or delayed notifications. You use this service at your own risk.
 - **Agreement**: By contacting to purchase and proceeding with payment, you confirm that you understand and accept these terms, including the potential for imperfect performance.
 
