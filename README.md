@@ -3,7 +3,7 @@
 ![XDC Sentinel Logo](XDC_Sentinel.jpg)
 
 ## Overview
-XDC Sentinel is a monitoring tool designed to check the status of XDC network nodes by verifying if their P2P port (e.g., 30303) is open and responsive. It runs periodic checks and sends notifications to iPhone/Android for events such as:
+XDC Sentinel is a monitoring tool designed to check the status of XDC network nodes by verifying if their P2P port is open and responsive. It runs periodic checks and sends notifications to iPhone/Android for events such as:
 - Node going offline or coming back online.
 - Repeated offline reminders (every 2 hours if offline persists).
 - Daily "remains online" confirmation (sent on the first check after 08:00 AEST/AEDT).
@@ -18,19 +18,19 @@ For more about my projects, visit my website: [XDC Outpost](https://s4njk4n.gith
 
 ## What You Are Purchasing
 By purchasing access to XDC Sentinel notifications, you are **not** purchasing the XDC Sentinel software, or any ownership rights. Instead, you are paying for:
-- Subscription to personalized notifications for your specified XDC node(s), delivered via a notification application channel.
+- Subscription to personalized notifications for your specified XDC node(s) P2P ports, delivered via an iOS/Android notification application.
 - The service of configuring and maintaining the monitoring for your node(s) in the backend workflow.
 
 You will provide your node's IP address (and P2P port if you have changed it) during setup. Notifications will be sent based on the software's checks, but as detailed below, there are no guarantees of perfect functionality.
 
 ## Pricing and Subscription Terms
 - _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
-- **Risk-free Trial**: Your first 30 days of using XDC Sentinel are considered a trial period. Full payment is required upfront before starting. If you decide not to continue within these 30 days, your payment will be fully refunded.
+- **Risk-free Trial**: Your first 30 days of using XDC Sentinel are considered a trial period. If you decide not to continue within these 30 days, your payment will be fully refunded.
 - **Price**: A flat fee of 1200 XDC (per node) covers service for the current year January 1st to December 31st only (no prorated discounts based on purchase date). _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
 - **Billing Period**: Payment is due in full upfront and provides access from your purchase date through December 31st of the same year only. _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
 - **Renewal**: Subscriptions expire annually on December 31st. To renew, you must make a new purchase of 1200 XDC for the next year. There are no automatic renewals or refunds outside the trial period. _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
 - **Payment Method**: Payments are accepted in XDC cryptocurrency only. Detailed instructions will be provided upon contact.
-- **Modifications**: User-requested modifications to service settings (eg. changing the ntfy.sh notification channel, or changing the node IP address following node migration etc) require manual settings update and will incur a prepaid fee of 600 XDC before being actioned.
+- **Modifications**: User-requested modifications to service settings (eg. changing the notification channel code, or changing the node IP address following node migration etc) require manual settings update and will incur a fee of 600 XDC.
 
 ## Eligibility and Compliance
 To ensure compliance with local Australian regulations:
