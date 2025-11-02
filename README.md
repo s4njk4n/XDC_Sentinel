@@ -21,7 +21,7 @@ By purchasing access to XDC Sentinel notifications, you are **not** purchasing t
 - Subscription to personalized notifications for your specified XDC node(s) P2P ports, delivered via an iOS/Android notification application.
 - The service of configuring and maintaining the monitoring for your node(s) in the backend workflow.
 
-You will provide your node's IP address (and P2P port if you have changed it) during setup. Notifications will be sent based on the software's checks, but as detailed below, there are no guarantees of perfect functionality.
+You will provide your node's IP address (and P2P port if you have changed it) during setup. Notifications will be sent based on the software's checks.
 
 ## Pricing and Subscription Terms
 - _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
