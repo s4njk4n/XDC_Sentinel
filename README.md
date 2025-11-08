@@ -16,7 +16,7 @@ For more about my projects, visit my website: [XDC Outpost](https://s4njk4n.gith
 
 [![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n)
 
-[![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n?text=Hi%20s4njk4n.%20I%27m%20interested%20in%20purchasing%20access%20to%20XDC%20Sentinel.%20Please%20send%20me%20payment%20instructions)
+[![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n?text=Hi%20s4njk4n.%20I%27m%20interested%20in%20purchasing%20access%20to%20XDC%20Sentinel.)
 
 ## What You Are Purchasing
 By purchasing access to XDC Sentinel notifications, you are **not** purchasing the XDC Sentinel software, or any ownership rights. Instead, you are paying for:
