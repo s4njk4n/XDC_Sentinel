@@ -5,7 +5,7 @@
 ## Overview
 XDC Sentinel is a monitoring tool designed to check the status of XDC network nodes by verifying if their P2P port is open and responsive. It runs periodic checks and sends notifications to iPhone/Android for events such as:
 - Node going offline or coming back online.
-- Repeated offline reminders (every 2 hours if offline persists).
+- Repeated offline reminders (every 2-3 hours if offline persists).
 - Daily "remains online" confirmation (sent on the first check after 08:00 AEST/AEDT).
 
 Notifications can be simultaneously sent to as many user devices as the purchaser requires. 15 people responsible for your node's upkeep? No problems! Send notifications to all of them so the first available can fix the issue!
