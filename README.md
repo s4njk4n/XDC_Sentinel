@@ -1,147 +1,114 @@
-# XDC Sentinel: XDC Node Monitoring & Alerts (Open-Source + Paid Options)
+# XDC Sentinel: XDC Node Monitoring & Notifications
 
-[![Forks](https://img.shields.io/github/forks/s4njk4n/XDC_Sentinel?style=social)](https://github.com/s4njk4n/XDC_Sentinel/network/members) [![Stars](https://img.shields.io/github/stars/s4njk4n/XDC_Sentinel?style=social)](https://github.com/s4njk4n/XDC_Sentinel/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/s4njk4n/XDC_Sentinel?style=social)](https://github.com/s4njk4n/XDC_Sentinel/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/s4njk4n/XDC_Sentinel?style=social)](https://github.com/s4njk4n/XDC_Sentinel/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/s4njk4n/XDC_Sentinel)](https://github.com/s4njk4n/XDC_Sentinel/issues)
 
-![XDC Sentinel Logo](XDC_Sentinel.jpg)
+<img src="XDC_Sentinel.jpg" alt="XDC Sentinel Banner" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 
-## Overview
-XDC Sentinel is a monitoring tool designed to check the status of XDC network nodes by verifying if their P2P port is open and responsive. It runs periodic checks and sends notifications to iPhone/Android for events such as:
-- Node going offline or coming back online.
-- Repeated offline reminders (every 2-3 hours if offline persists).
-- Daily "remains online" confirmation (sent on the first check after 08:00 AEST/AEDT).
 
-Notifications can be simultaneously sent to as many user devices as the purchaser requires. 15 people responsible for your node's upkeep? No problems! Send notifications to all of them so the first available can fix the issue!
 
-- **Free Self-Hosted**: Fork & run in GitHub Actions (below).
-- **Paid Managed Service** (1200 XDC/node/year): I handle setup, hosting, & support. Launch deal to Dec 2026. Contact via [Telegram @s4njk4n](https://t.me/s4njk4n). 30-day trial. See below for terms and details.
+**XDC Sentinel** monitors XDC Network nodes by checking their P2P ports. It sends instant push notifications via ntfy.sh for:
+- Nodes going offline or back online.
+- Ongoing offline reminders (every 2 hours).
+- Daily "all good" confirmations after 08:00 AEST/AEDT.
 
-For more about my projects, visit my website: [XDC Outpost](https://s4njk4n.github.io/XDCOutpost/).
+Supports multiple nodes and devices (e.g., notify your whole team!). **Not affiliated with XDC Network.**
 
-> **Important Note**: XDC Sentinel is not affiliated with the XDC Network or any official entities. It is an independent monitoring service provided for informational purposes only.
+For more projects, visit [XDC Outpost](https://s4njk4n.github.io/XDCOutpost/).
 
-## 🚀 Free Setup: Self-Host in Your Repo
+## 🚀 Free Open-Source Version
+For tech-savvy users: Fork and self-host in GitHub Actions—no cost, full control.
 
-1. **Fork this repo** (click the button in the top-right corner).
+### Quick Setup
+1. **Fork this repo** (top-right button—keep public to support the community!).
 
 2. **Set Up ntfy.sh Notifications**  
-   ntfy.sh is a free, open-source service for push notifications to your phone or browser—no account needed!  
-   - **Step 1**: Download the ntfy app (iOS/Android) from [ntfy.sh/apps](https://ntfy.sh/apps) or use the web app at [ntfy.sh](https://ntfy.sh).  
-   - **Step 2**: Create a "topic" (like a channel name)—just pick a unique, random string (e.g., `xdc-node-alerts-xyz123`). This is your private subscription key.  
-   - **Step 3**: Subscribe: In the app, tap "+" and enter your topic. You'll get instant pushes when alerts fire.  
-   - **Tips**: Topics are public if guessed, so make them long/random. No email/SMS needed—it's all push-based. For details, see [ntfy docs](https://docs.ntfy.sh/subscribe/).
+   ntfy.sh is a free, open-source push notification service—no account required!  
+   - **Step 1**: Download the app (iOS/Android) from [ntfy.sh/apps](https://ntfy.sh/apps) or use the web version at [ntfy.sh](https://ntfy.sh).  
+   - **Step 2**: Create a unique, random "topic" (e.g., `xdc-alerts-xyz123`)—this is your private channel.  
+   - **Step 3**: Subscribe in the app: Tap "+" and add your topic for instant alerts.  
+   - **Tips**: Use long/random topics to prevent guessing. See [ntfy docs](https://docs.ntfy.sh/subscribe/) for more.
 
-3. **Add secret** (Settings > Secrets & variables > Actions > New repository secret):  
+3. **Add Your Secret** (Settings > Secrets & variables > Actions > New secret):  
    - Name: `NODES_CSV`  
    - Value (multiline CSV):  
      ```csv
      Name,IP,P2P_Port,ntfy_Topic
-     Node1,123.456.789.102,30303,xdc-node-alerts-xyz123
-     Node2,192.0.2.1,30303,another-topic-abc456
+     MyNode,125.34.268.53,30303,xdc-alerts-xyz123
+     BackupNode,192.0.2.1,30303,another-topic-abc456
      ```  
-     (IPs anonymized in alerts with last two octets, e.g., "x.y".)
+     (IPs are anonymized in alerts, showing only the last two octets, e.g., `x.y`.)
 
-4. **Test it**: Go to the Actions tab > XDC Sentinel Monitoring > Run workflow > Run. Check your phone for a test alert if online.
+4. **Test & Run**: Actions tab > XDC Sentinel Monitoring > Run workflow. Check for alerts. It's scheduled hourly—edit `xdc-sentinel.yml` for changes.
 
-5. **Automate**: It's set to run hourly via cron (edit the `.yml` file for a different frequency).
+**Security Notes**:  
+- Never commit secrets to code—use GitHub Secrets only (encrypted & secure).  
+- Public forks are safe; secrets don't copy over.  
+- Test with dummy data first. Enable 2FA and repo alerts.
 
-**Debug Tips**: No alerts? Verify your topic in the app/logs. The script tests connectivity first.
+**Debug Tips**:  
+- Workflow fails? Check Actions logs for errors (e.g., connectivity issues).  
+- No alerts? Verify topic in app/logs. Script skips checks if offline.  
+- Port issues? GitHub runners are cloud-based—firewalls may vary.
 
-Runs free on GitHub's Ubuntu runners. State persists via cache; logs auto-clean daily.
+Runs free on GitHub runners. State persists via cache; logs auto-rotate daily.
 
-### ⚠️ Security Notes
-- **Use secrets only**—never commit CSV/IPs to code.
-- Public fork safe: Secrets don't fork/leak.
-- ntfy topics: Treat as passwords—public exposure risks spam.
-- Enable GitHub security alerts & 2FA.
-- Test with dummy data first.
-
-**Debug Tips**:
-- Logs in Actions output (xdc_monitor.log).
-- Connectivity issues? Script skips if offline.
-- Port blocked? GitHub runners are cloud-based—firewalls may vary.
-
-## 📞 Support and Questions
-
-I'm thrilled to offer this open-source version of XDC Sentinel for tech-savvy users who can set it up independently using the provided code and instructions. However, due to my limited availability, I'm unable to provide personal support, troubleshooting, or respond to questions about the self-hosted setup.
-
-If you're encountering challenges or prefer a hands-off experience, I encourage you to explore the paid managed service—I'll take care of everything for you, including setup, monitoring, and any ongoing assistance. Feel free to reach out via [Telegram @s4njk4n](https://t.me/s4njk4n) to get started!
-
-For general feedback or contributions (e.g., pull requests), you're welcome to open an issue here on GitHub.
-
-## 💰 Paid Service: Outsourced Monitoring
+## 💰 Paid Managed Service
+For hassle-free monitoring: I handle setup, hosting, and support. Ideal if you lack time or tech skills.
 
 [![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n?text=Hi%20s4njk4n.%20I%27m%20interested%20in%20purchasing%20access%20to%20XDC%20Sentinel.)
 
-### What You Are Purchasing
-By purchasing access to XDC Sentinel notifications, you are **not** purchasing the XDC Sentinel software, or any ownership rights. Instead, you are paying for:
-- Subscription to personalized notifications for your specified XDC node(s) P2P ports, delivered via an iOS/Android notification application.
-- The service of configuring and maintaining the monitoring for your node(s) in the backend workflow.
+### What You're Purchasing
+- Personalized notifications for your node(s) via push app.  
+- Backend configuration and maintenance.  
+- Multi-device support (e.g., notify your whole team).  
 
-### Pricing and Subscription Terms
-- _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
-- **Risk-free Trial**: Your first 30 days of using XDC Sentinel are considered a trial period. If you decide not to continue within these 30 days, your payment will be fully refunded.
-- **Price**: A flat fee of 1200 XDC (per node) covers service for the current year January 1st to December 31st only (no prorated discounts based on purchase date). _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
-- **Billing Period**: Payment is due in full upfront and provides access from your purchase date through December 31st of the same year only. _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
-- **Renewal**: Subscriptions expire annually on December 31st. To renew, you must make a new purchase of 1200 XDC for the next year. There are no automatic renewals or refunds outside the trial period. _(**Launch deal**: Purchases made in 2025 will cover until December 31st 2026)._
-- **Payment Method**: Payments are accepted in XDC cryptocurrency only. Detailed instructions will be provided upon contact.
-- **Modifications**: User-requested modifications to service settings (eg. changing the notification channel code, or changing the node IP address following node migration etc) require manual settings update and will incur a fee of 600 XDC.
+(No software ownership—just the service.)
 
-### Eligibility and Compliance
-To ensure compliance with local Australian regulations:
-- By proceeding with purchase, you declare that you (and/or your organization) are **not** a citizen of, resident of, or domiciled in Australia.
-- You also declare that XDC Sentinel will **not** be used to monitor servers or nodes located in Australia.
+### Pricing & Terms
+- **Launch Deal (2025 Only)**: If you purchase in 2025, your service covers from the start date through Dec 31, 2026—at the standard 1200 XDC price!
+- **Risk-Free Trial**: 30 days from start—full refund if not satisfied.
+- **Standard Price**: 1200 XDC per node per calendar year (Jan 1–Dec 31). No prorating.
+- **Renewal**: Manual renewal only—no auto-billing. To continue after your current coverage ends, pay 1200 XDC for the next full calendar year.
+- **Modifications**: 600 XDC fee for any changes during your coverage (e.g., updating IP, port, or ntfy topic).
+- **Payment**: XDC cryptocurrency only; I'll provide wallet details and instructions upon agreement.
 
-If these conditions apply to you, please do not proceed. Purchases from ineligible parties will be refunded (minus any transaction fees), and access will be denied.
+### Eligibility
+To comply with Australian regs:  
+- You/your org must not be Australian-based.  
+- Nodes must not be in Australia.  
 
-### How to Purchase
-If you agree to the terms above as well as the Privacy Policy and Disclaimers below and wish to proceed:
-- Contact me on Telegram: [@s4njk4n](https://t.me/s4njk4n)
-- Provide your node details (IP, port).
-- I'll confirm setup and provide payment instructions.
+Ineligible? Refund issued (minus fees).
 
-[![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n?text=Hi%20s4njk4n.%20I%27m%20interested%20in%20purchasing%20access%20to%20XDC%20Sentinel.)
+### How to Get Started
+Agree to terms? Contact [@s4njk4n on Telegram](https://t.me/s4njk4n). Provide node details—I'll set it up!
 
----
+## 📞 Support Policy
+Thrilled to share the open-source code for self-setup! However, with limited time, I can't offer troubleshooting or respond to questions about the free version.  
 
-#### Privacy Policy
-Your privacy is important to us. This Privacy Policy explains how we collect, use, store, and protect your information when you use or purchase access to XDC Sentinel. By purchasing or using the service, you agree to the practices described here.
+If setup challenges arise, consider the paid service—I'll manage everything, including support. Reach out on Telegram for paid inquiries.  
 
-##### Information We Collect
-- **Node Details**: When you provide your node's IP address, P2P port, and notification channel code for setup, this information is used solely to configure your personalized monitoring and notifications.
-- **Purchase Details**: We collect minimal information related to your purchase, such as your Telegram username and payment transaction hash/details. This is kept for accounting and compliance purposes.
-- **No Personal Data**: We do not collect names, email addresses, or other personally identifiable information unless voluntarily provided during contact.
+For code improvements, open a GitHub issue or PR.
 
-##### How We Use Your Information
-- Node details are used exclusively to monitor your XDC node and send notifications via a 3rd-party notification application.
-- Purchase details are used to process your subscription, provide receipts, and comply with local tax regulations.
+## 🔒 Privacy Policy
+Your privacy matters. By using/purchasing:  
 
-##### Storage and Security
-- **Encryption**: Your node's IP address, port, and notification channel code are stored with AES-256 encryption when online. Once encrypted, even we (the provider) cannot retrieve or view the original values—access is limited to the automated workflow for monitoring purposes.
-- **Offline Storage**: Purchase details and any related records are kept offline in secure, private storage and are not stored on cloud services or shared with third parties.
-- **Retention**: Purchase details are retained only for the period required by local Australian regulations. Node details are deleted upon subscription expiration or cancellation.
+- **Collected Data**: Node IP/port/topic (for monitoring); Telegram/payment details (for billing). No names/emails unless provided.  
+- **Usage**: Solely for service delivery/compliance.  
+- **Security**: AES-256 encryption; offline storage for records. Node data deleted on expiration.  
+- **Sharing**: None, except legally required. Keep topics private—alerts are minimal/anonymized.  
+- **Rights**: Request access/deletion via Telegram.  
 
-##### Sharing and Disclosure
-- We do not share, sell, or disclose your information to any third parties, except as required by law.
-- **Notifications**: iOS/Android notifications are sent to your specified notification channel code. In addition to using a random complex channel code, we recommend keeping your channel code private and not sharing it. Notification content is minimal and anonymized (e.g., "XDC Node (Server Name/type) with IP ending in 111.222 is OFFLINE!"), avoiding full IPs or sensitive details, however notifications are accessible by anyone who has the channel code so you will need to keep this private.
+Updates posted here. Effective: Oct 27, 2025.
 
-##### Your Rights
-- You can request access to, correction of, or deletion of your data by contacting us via Telegram (@s4njk4n).
-- If you cancel your subscription, we will delete your node details promptly.
+## ⚠️ Liability & Disclaimers
+"As-is" service—no warranties.  
 
-##### Changes to This Policy
-We may update this Privacy Policy from time to time. Changes will be posted in this repository, and continued use of the service constitutes acceptance of the updated terms.
+- **No Uptime Guarantee**: Subject to platform/notification delays/outages.  
+- **Fallibility**: Systems can fail; no 100% accuracy.  
+- **No Liability**: Not responsible for losses from downtime/delays. Use at own risk.  
 
-If you have questions about this Privacy Policy, contact us at [@s4njk4n](https://t.me/s4njk4n).
+Payment confirms acceptance.
 
-*This Privacy Policy is effective as of October 27, 2025.*
-
-#### Liability and Disclaimers
-XDC Sentinel is provided on an "as-is" basis with no warranties or guarantees. By proceeding with purchase, you acknowledge and agree to the following:
-- **No Uptime Guarantee**: The monitoring runs on online servers, and is therefore subject to any performance limits of that service (including but not limited to delays, outages, or inconsistencies in scheduling (e.g., checks intended every hour may vary due to platform load)). Notifications are also similarly subject to the functionality and performance limits of the notification service used (including but not-limited to potential delays or non-transmission of notifications). _Note: Exact timing of notifications varies based on server load._
-- **Fallibility of Systems**: Hardware, software, networks, and third-party services are inherently fallible. It is possible for checks to fail, miss events, or produce inaccurate results due to technical issues, connectivity problems, or external factors. We do not guarantee 100% accuracy or reliability.
-- **No Liability**: The provider (s4njk4n) assumes no liability for any losses, damages, or missed opportunities resulting from use (or non-use) of this service, including but not limited to node downtime, financial impacts on your XDC operations, or delayed notifications. You use this service at your own risk.
-- **Agreement**: By contacting to purchase and proceeding with payment, you confirm that you understand and accept these terms, including the potential for imperfect performance.
-
-[![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n?text=Hi%20s4njk4n.%20I%27m%20interested%20in%20purchasing%20access%20to%20XDC%20Sentinel.)
-
-**Thank you for your interest in XDC Sentinel!**
+Thanks for your interest! Stars/forks appreciated. Questions? Telegram for paid service.
