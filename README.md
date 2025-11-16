@@ -21,7 +21,7 @@ For more projects, visit [XDC Outpost](https://s4njk4n.github.io/XDCOutpost/).
 For tech-savvy users: Fork and self-host in GitHub Actions—no cost, full control.
 
 ### Quick Setup
-1. **Fork this repo** (top-right button—keep public to support the community!).
+1. **Fork this repo** (top-right button).
 
 2. **Set Up ntfy.sh Notifications**  
    ntfy.sh is a free, open-source push notification service—no account required!  
