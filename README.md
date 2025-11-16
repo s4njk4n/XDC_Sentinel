@@ -26,7 +26,7 @@ For tech-savvy users: Fork and self-host in GitHub Actions—no cost, full contr
 2. **Set Up ntfy.sh Notifications**  
    ntfy.sh is a free, open-source push notification service—no account required!  
    - **Step 1**: Download the app (iOS/Android) from [ntfy.sh/apps](https://ntfy.sh/apps) or use the web version at [ntfy.sh](https://ntfy.sh).  
-   - **Step 2**: Create a unique, random "topic" (e.g., `xdc-alerts-xyz123`)—this is your private channel.  
+   - **Step 2**: Create a unique, random "topic" (e.g., `xdc-alerts-xyz123`)—this is your notification channel.  
    - **Step 3**: Subscribe in the app: Tap "+" and add your topic for instant alerts.  
    - **Tips**: Use long/random topics to prevent guessing. See [ntfy docs](https://docs.ntfy.sh/subscribe/) for more.
 
