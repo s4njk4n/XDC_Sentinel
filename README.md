@@ -22,15 +22,16 @@ For tech-savvy users: Fork and self-host in GitHub Actions—no cost, full contr
 
 ### Quick Setup
 1. **Fork this repo** (top-right button).
-
-2. **Set Up ntfy.sh Notifications**  
+2. **Enable the Workflow**: In your forked repo, go to the Actions tab. If prompted, click "I understand my workflows, go ahead and enable them" (or similar). This activates scheduled and manual runs—GitHub disables them by default in forks for security.
+   
+3. **Set Up ntfy.sh Notifications**  
    ntfy.sh is a free, open-source push notification service—no account required!  
    - **Step 1**: Download the app (iOS/Android) from [ntfy.sh/apps](https://ntfy.sh/apps) or use the web version at [ntfy.sh](https://ntfy.sh).  
    - **Step 2**: Create a unique, random "topic" (e.g., `xdc-alerts-xyz123`)—this is your notification channel.  
    - **Step 3**: Subscribe in the app: Tap "+" and add your topic for instant alerts.  
    - **Tips**: Use long/random topics to prevent guessing. See [ntfy docs](https://docs.ntfy.sh/subscribe/) for more.
 
-3. **Add Your Secret** (Settings > Secrets & variables > Actions > New secret):  
+4. **Add Your Secret** (Settings > Secrets & variables > Actions > New secret):  
    - Name: `NODES_CSV`  
    - Value (multiline CSV):  
      ```csv
@@ -40,7 +41,7 @@ For tech-savvy users: Fork and self-host in GitHub Actions—no cost, full contr
      ```  
      (IPs are anonymized in alerts, showing only the last two octets, e.g., `x.y`.)
 
-4. **Test & Run**: Actions tab > XDC Sentinel Monitoring > Run workflow. Check for alerts. It's scheduled hourly—edit `xdc-sentinel.yml` for changes.
+5. **Test & Run**: Actions tab > XDC Sentinel Monitoring > Run workflow. Check for alerts. It's scheduled hourly—edit `xdc-sentinel.yml` for changes.
 
 **Security Notes**:  
 - Never commit secrets to code—use GitHub Secrets only (encrypted & secure).  
