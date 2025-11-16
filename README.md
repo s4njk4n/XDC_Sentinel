@@ -60,6 +60,14 @@ Runs free on GitHub's Ubuntu runners. State persists via cache; logs auto-clean 
 - Connectivity issues? Script skips if offline.
 - Port blocked? GitHub runners are cloud-based—firewalls may vary.
 
+## 📞 Support and Questions
+
+I'm thrilled to offer this open-source version of XDC Sentinel for tech-savvy users who can set it up independently using the provided code and instructions. However, due to my limited availability, I'm unable to provide personal support, troubleshooting, or respond to questions about the self-hosted setup.
+
+If you're encountering challenges or prefer a hands-off experience, I encourage you to explore the paid managed service—I'll take care of everything for you, including setup, monitoring, and any ongoing assistance. Feel free to reach out via [Telegram @s4njk4n](https://t.me/s4njk4n) to get started!
+
+For general feedback or contributions (e.g., pull requests), you're welcome to open an issue here on GitHub.
+
 ## 💰 Paid Service: Outsourced Monitoring
 
 [![Purchase Now](https://img.shields.io/badge/Purchase%20Now-4CAF50?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s4njk4n?text=Hi%20s4njk4n.%20I%27m%20interested%20in%20purchasing%20access%20to%20XDC%20Sentinel.)
