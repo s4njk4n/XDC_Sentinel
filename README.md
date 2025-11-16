@@ -13,7 +13,7 @@
 - Ongoing offline reminders (every 2 hours).
 - Daily "all good" confirmations after 08:00 AEST/AEDT.
 
-Supports multiple nodes and devices (e.g., notify your whole team!). **Not affiliated with XDC Network.**
+Supports multiple nodes and devices (e.g., notify your whole team!).
 
 For more projects, visit [XDC Outpost](https://s4njk4n.github.io/XDCOutpost/).
 
