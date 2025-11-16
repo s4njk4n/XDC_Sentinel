@@ -27,7 +27,7 @@ For tech-savvy users: Fork and self-host in GitHub Actions—no cost, full contr
 3. **Set Up ntfy.sh Notifications**  
    ntfy.sh is a free, open-source push notification service—no account required!  
    - **Step 1**: Download the app (iOS/Android) from [ntfy.sh](https://ntfy.sh).  
-   - **Step 2**: Create a unique, random "topic" (e.g., `alerts-xyz123d0394fypojfdsav`)—this is your notification channel.  
+   - **Step 2**: Create a unique, random "topic" (e.g., `94fypojfdsav`)—this is your notification channel.  
    - **Step 3**: Subscribe in the app: Tap "+" and add your topic for instant alerts.  
    - **Tips**: Use long/random topics to prevent guessing. See [ntfy docs](https://docs.ntfy.sh/) for more.
 
@@ -36,7 +36,7 @@ For tech-savvy users: Fork and self-host in GitHub Actions—no cost, full contr
    - Value (multiline CSV):  
      ```csv
      Name,IP,P2P_Port,ntfy_Topic
-     MyNode,125.34.268.53,30303,alerts-xyz123d0394fypojfdsav
+     MyNode,125.34.268.53,30303,94fypojfdsav
      BackupNode,192.0.2.1,30303,another-topic-abc456
      ```  
      (IPs are anonymized in alerts, showing only the last two octets, e.g., `x.y`.)
