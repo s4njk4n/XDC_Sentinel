@@ -31,7 +31,7 @@ For tech-savvy users: Fork and self-host in GitHub Actions—no cost, full contr
    - **Step 3**: Subscribe in the app: Tap "+" and add your topic for instant alerts.  
    - **Tips**: Use long/random topics to prevent guessing. See [ntfy docs](https://docs.ntfy.sh/) for more.
 
-4. **Add Your Secret** (Settings > Secrets & variables > Actions > New secret):  
+4. **Add Your Node/Topic Details to GitHub Secrets** (Settings > Secrets & variables > Actions > New secret):  
    - Name: `NODES_CSV`  
    - Value (multiline CSV):  
      ```csv
