@@ -50,7 +50,7 @@ For tech-savvy users: Fork and self-host in GitHub Actions—no cost, full contr
 
 **Debug Tips**:  
 - Workflow fails? Check Actions logs for errors (e.g., connectivity issues).  
-- No alerts? Verify topic in app/logs. Script skips checks if offline.  
+- No alerts? Verify topic in app/logs.
 - Port issues? GitHub runners are cloud-based—firewalls may vary.
 
 Runs free on GitHub runners. State persists via cache; logs auto-rotate daily.
