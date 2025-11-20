@@ -45,7 +45,7 @@ For tech-savvy users: Fork and self-host in GitHub Actions—no cost, full contr
 
 **Security Notes**:  
 - Never commit secrets to code—use GitHub Secrets only (encrypted & secure).  
-- Public forks are safe.
+- Public forks are safe as long as you keep you details in Github secrets as noted above.
 - Test with dummy data first. Enable 2FA and repo alerts.
 
 **Debug Tips**:  
